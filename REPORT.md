@@ -122,7 +122,7 @@ A table will be maintained in CHANGELOG.md with:
 - Cultural clubs (e.g., Telugu Sahitya Parishad)
 - Meme creators on Instagram
 
-** Growth Channels:**
+**Growth Channels:**
 - Instagram reels
 - WhatsApp broadcast messages
 - Posters in rural colleges
@@ -152,8 +152,8 @@ A table will be maintained in CHANGELOG.md with:
 - Documentation to support community-led growth
 
 
-## ✅ Summary
+## Summary
 
-**Desi Meme Generator** is more than just a meme tool — it’s a cultural and linguistic corpus engine wrapped in humor. Through fun, creative engagement, we enable data contribution in a way that is inclusive, accessible, and scalable.
+**Desi Meme Generator 🇮🇳** is more than just a meme tool — it’s a cultural and linguistic corpus engine wrapped in humor. Through fun, creative engagement, we enable data contribution in a way that is inclusive, accessible, and scalable.
 
 We believe this app embodies the **spirit of the Summer of AI 2025** — blending open-source values with grassroots creativity and social impact.
