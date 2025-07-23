@@ -51,20 +51,18 @@ All models will be integrated using lightweight APIs suitable for low-bandwidth 
 
 **File Structure:**
 app/
-│
-├── templates/ # Meme images
-├── main.py # Streamlit interface
-├── utils/ # Helper functions
-├── data/ # Collected caption data
-├── requirements.txt
-├── README.md
-├── REPORT.md
-├── LICENSE
+templates/ # Meme images
+main.py # Streamlit interface 
+utils/ # Helper functions
+data/ # Collected caption data
+requirements.txt
+README.md
+REPORT.md
+LICENSE
 
 ## (File structure may differ according to the app)
 
 **Deployment:**  
-- Hosted on [Hugging Face Spaces](https://huggingface.co/spaces)
 - Public and no login required
 
 ## 🧪 5. User Testing & Feedback
