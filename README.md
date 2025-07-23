@@ -2,7 +2,6 @@
 
 An open-source, AI-powered Streamlit application that empowers users to create and share memes in their local Indian languages. Built as part of the **Summer of AI 2025** by Swecha, this project aims to collect culturally rich, informal language data through a fun and engaging meme creation platform.
 
----
 
 ## 🚀 Overview
 
@@ -14,7 +13,6 @@ An open-source, AI-powered Streamlit application that empowers users to create a
 
 The app is built using **Streamlit** and integrates **open-source AI models** to suggest captions and support multilingual features.
 
----
 
 ## 🎯 Project Goals
 
@@ -22,8 +20,6 @@ The app is built using **Streamlit** and integrates **open-source AI models** to
 - 🗣️ Capture informal, slang-rich text data from diverse Indian regions
 - 🌍 Support offline-first use to ensure accessibility in low-connectivity areas
 - 📈 Run a real-world user acquisition campaign to collect meaningful data
-
----
 
 ## 🧠 AI Component
 
@@ -33,8 +29,6 @@ We use open-source NLP models to:
 
 The focus is on **leveraging AI ethically** while keeping the application **lightweight and accessible**.
 
----
-
 ## 📦 Tech Stack
 
 - **Frontend:** Streamlit
@@ -43,6 +37,6 @@ The focus is on **leveraging AI ethically** while keeping the application **ligh
 - **Version Control:** Git (hosted on [code.swecha.org](https://code.swecha.org))
 - **Language Support:** Multilingual (focus on Indian regional languages)
 
----
+
 
 ## DEVELOPED SOON...
