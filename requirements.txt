@@ -1,9 +1,8 @@
 streamlit
 langdetect
-langid
-googletrans==4.0.0-rc1
 transformers
 torch
 duckduckgo-search
 Pillow
 requests
+deep-translator
