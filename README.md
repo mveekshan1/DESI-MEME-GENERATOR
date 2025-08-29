@@ -4,6 +4,10 @@ An open-source, AI-powered **Streamlit application** that empowers users to crea
 
 Built as part of the **Summer of AI 2025 Internship (Swecha)**, this project bridges **fun meme culture** with **linguistic diversity** by enabling meme creation in multiple Indian languages while also helping build an **open-source informal language corpus**.
 
+
+**App Link**
+https://desimemegen.streamlit.app/
+
 ---
 
 ## 🚀 Features
