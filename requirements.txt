@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 streamlit
 langdetect
 googletrans==4.0.0-rc1
@@ -6,12 +5,3 @@ transformers
 torch
 duckduckgo-search
 Pillow
-=======
-streamlit
-langdetect
-googletrans==4.0.0-rc1
-transformers
-torch
-duckduckgo-search
-Pillow
->>>>>>> 9bc13130 (Initial Commit)
