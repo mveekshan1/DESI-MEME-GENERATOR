@@ -1,42 +1,56 @@
 # Desi Meme Generator 🇮🇳
 
-An open-source, AI-powered Streamlit application that empowers users to create and share memes in their local Indian languages. Built as part of the **Summer of AI 2025** by Swecha, this project aims to collect culturally rich, informal language data through a fun and engaging meme creation platform.
+An open-source, AI-powered **Streamlit application** that empowers users to create and share memes in their local Indian languages.  
 
+Built as part of the **Summer of AI 2025 Internship (Swecha)**, this project bridges **fun meme culture** with **linguistic diversity** by enabling meme creation in multiple Indian languages while also helping build an **open-source informal language corpus**.
 
-## 🚀 Overview
+---
 
-**Desi Meme Generator** is designed to:
-- Provide users with meme templates that reflect Indian culture (movies, sports, politics, etc.)
-- Allow them to add captions in their **native/regional languages**
-- Collect these captions to build a **linguistically diverse corpus**
-- Work efficiently in **low-bandwidth, offline-first** environments
+## 🚀 Features
 
-The app is built using **Streamlit** and integrates **open-source AI models** to suggest captions and support multilingual features.
+- 🎭 **Cultural Meme Templates**: Bollywood, Tollywood, Cricket, Politics & more
+- 🗣️ **Multilingual Captions**: Add memes in **regional Indian languages**
+- 🤖 **AI-powered Caption Suggestions**: Get smart, context-aware captions
+- 🔄 **Translation Support**: Translate captions across Indian languages (via open-source models)
+- 📦 **Corpus Collection**: Captures informal, slang-rich user-generated text
+- 🌐 **Offline-first Mode**: Works smoothly in low-bandwidth environments
+- 💾 **Data Storage**: Saves memes + captions securely for corpus building
 
-
-## 🎯 Project Goals
-
-- 🤖 Integrate AI to support caption suggestions or translation
-- 🗣️ Capture informal, slang-rich text data from diverse Indian regions
-- 🌍 Support offline-first use to ensure accessibility in low-connectivity areas
-- 📈 Run a real-world user acquisition campaign to collect meaningful data
+---
 
 ## 🧠 AI Component
 
-We use open-source NLP models to:
-- Suggest meme captions based on image template + language
-- (Optionally) Translate captions into other Indian languages
+We integrated open-source **NLP models**:
+- **Hugging Face Transformers** → for text generation
+- **IndicTrans / AI4Bharat models** → for multilingual translation
+- **Caption Suggestion Engine** → recommends meme text based on template + language
 
-The focus is on **leveraging AI ethically** while keeping the application **lightweight and accessible**.
+---
 
 ## 📦 Tech Stack
 
-- **Frontend:** Streamlit
-- **AI Integration:** Hugging Face Transformers, IndicTrans (or similar)
-- **Deployment:** Hugging Face Spaces
-- **Version Control:** Git (hosted on [code.swecha.org](https://code.swecha.org))
-- **Language Support:** Multilingual (focus on Indian regional languages)
+- **Frontend/UI** → Streamlit  
+- **Backend** → Python (FastAPI/Streamlit APIs)  
+- **AI/ML** → Hugging Face Transformers, IndicTrans  
+- **Deployment** → Hugging Face Spaces / Streamlit Cloud  
+- **Version Control** → GitHub / Code.Swecha  
+- **Languages Supported** → Hindi, Telugu, Tamil, Kannada, Malayalam, Bengali, Marathi, and English  
 
+---
 
+## ⚙️ Installation & Setup
 
-## DEVELOPED SOON...
+```bash
+# Clone the repository
+git clone https://github.com/mveekshan1/DESI-MEME-GENERATOR.git
+cd DESI-MEME-GENERATOR
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the app
+streamlit run app.py
