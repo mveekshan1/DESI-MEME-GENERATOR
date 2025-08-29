@@ -1,8 +1,7 @@
 # ai_module.py
 
 from langdetect import detect, DetectorFactory
-import langid
-from googletrans import Translator
+from deep_translator import GoogleTranslator
 from transformers import pipeline
 
 # Make langdetect deterministic
@@ -23,26 +22,21 @@ def detect_language(text):
     Handles single words, slang, and transliterations.
     """
     try:
-        # Primary detection using langdetect
         lang = detect(text)
         return lang
     except:
-        # Fallback using langid
-        lang, confidence = langid.classify(text)
-        return lang
+        return "en"  # fallback to English
 
 # -------------------------------
 # 2️⃣ Translation Function
 # -------------------------------
 def translate_caption(text):
     """
-    Translates any text to English.
+    Translates any text to English using Deep Translator.
     Returns the original text if translation fails.
     """
     try:
-        translator = Translator()
-        translation = translator.translate(text, dest='en')
-        return translation.text
+        return GoogleTranslator(source='auto', target='en').translate(text)
     except Exception as e:
         print("Translation failed:", e)
         return text
@@ -60,5 +54,4 @@ def get_caption_labels(prompt, top_k=3):
         return result["labels"][:top_k]
     except Exception as e:
         print("Labeling failed:", e)
-        # Fallback: return a default label
-        return ["funny"]
+        return ["funny"]  # fallback
