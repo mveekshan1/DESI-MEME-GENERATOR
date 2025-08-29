@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import streamlit as st
 from ai_module import detect_language, translate_caption, get_caption_labels
 from meme_fetcher import fetch_meme_image
@@ -42,6 +41,7 @@ if user_input:
         )
     else:
         st.warning("Couldn't find a suitable meme image.")
+
 =======
 import streamlit as st
 from ai_module import detect_language, translate_caption, get_caption_labels
@@ -86,4 +86,4 @@ if user_input:
         )
     else:
         st.warning("Couldn't find a suitable meme image.")
->>>>>>> 9bc13130 (Initial Commit)
+
