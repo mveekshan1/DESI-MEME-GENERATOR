@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 fonts-dejavu
+=======
+fonts-dejavu
+>>>>>>> 9bc13130 (Initial Commit)
