@@ -10,7 +10,7 @@ import textwrap
 # App Configuration
 # ---------------------------
 st.set_page_config(
-    page_title="🎭 Desi Meme Generator",
+    page_title="Desi Meme Generator",
     page_icon="🎭",
     layout="centered"
 )
@@ -67,7 +67,7 @@ if user_input:
             # Wrap text to fit meme width
             max_width = meme_image.width - 20
             lines = textwrap.wrap(user_input.upper(), width=30)
-            y_text = 10
+            y_text = 20
 
             for line in lines:
                 # Use textbbox to calculate text width and height
