@@ -29,9 +29,7 @@ with st.sidebar:
 # Main App UI
 # ---------------------------
 st.title("🎭 Desi Meme Generator")
-st.markdown(
-    "Enter any funny line in **any language** and get a meme instantly!"
-)
+st.markdown("Enter any funny line in **any language** and get a meme instantly!")
 
 # Unique input key
 user_input = st.text_input("👉 Enter your meme prompt", key="meme_prompt")
@@ -70,11 +68,23 @@ if user_input:
             max_width = meme_image.width - 20
             lines = textwrap.wrap(user_input.upper(), width=30)
             y_text = 10
+
             for line in lines:
-                w, h = draw.textsize(line, font=font)
+                # Use textbbox to calculate text width and height
+                bbox = draw.textbbox((0, 0), line, font=font)
+                w = bbox[2] - bbox[0]  # width
+                h = bbox[3] - bbox[1]  # height
+
                 x_text = (meme_image.width - w) / 2  # center align
-                draw.text((x_text, y_text), line, font=font, fill=font_color, stroke_width=1, stroke_fill="black")
-                y_text += h + 5
+                draw.text(
+                    (x_text, y_text),
+                    line,
+                    font=font,
+                    fill=font_color,
+                    stroke_width=1,
+                    stroke_fill="black"
+                )
+                y_text += h + 5  # line spacing
 
             # ---------------------------
             # Display Meme
