@@ -1,2 +1,0 @@
-python3-pil
-python3-pillow
