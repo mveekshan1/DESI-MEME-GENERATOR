@@ -1,7 +1,9 @@
 streamlit
 langdetect
 googletrans==4.0.0-rc1
+httpx==0.27.0
 transformers
 torch
 duckduckgo-search
 Pillow
+
