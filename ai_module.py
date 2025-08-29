@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from langdetect import detect
 from googletrans import Translator
 from transformers import pipeline
@@ -17,6 +16,7 @@ def get_caption_labels(prompt):
     labels = ["funny", "sarcastic", "angry", "romantic", "movie", "cringe", "friend", "food", "dialogue"]
     result = classifier(prompt, candidate_labels=labels)
     return result["labels"][0]
+
 =======
 from langdetect import detect
 from googletrans import Translator
@@ -36,4 +36,3 @@ def get_caption_labels(prompt):
     labels = ["funny", "sarcastic", "angry", "romantic", "movie", "cringe", "friend", "food", "dialogue"]
     result = classifier(prompt, candidate_labels=labels)
     return result["labels"][0]
->>>>>>> 9bc13130 (Initial Commit)
