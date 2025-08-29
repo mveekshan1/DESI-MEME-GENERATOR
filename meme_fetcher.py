@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from duckduckgo_search import DDGS
 import requests
 from PIL import Image
@@ -13,6 +12,7 @@ def fetch_meme_image(label):
             response = requests.get(image_url)
             return Image.open(BytesIO(response.content))
     return None
+
 =======
 from duckduckgo_search import DDGS
 import requests
@@ -28,4 +28,3 @@ def fetch_meme_image(label):
             response = requests.get(image_url)
             return Image.open(BytesIO(response.content))
     return None
->>>>>>> 9bc13130 (Initial Commit)
